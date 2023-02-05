@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    margin-left: 0;
+}
+.div1{
+    width: 100vw;
+    height: 40vh;
+    background-color:black;
+}
+
+.div2{
+    width: 100vw;
+    height: 425vh;
+    /* border: solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black; 
+}
+
+.img{
+    width: 23%;
+    height: 11%;
+    /* border: solid red;  */
+    margin-left: 1.25%;
+    margin-bottom: 2%;
+  
+}
+.pic{
+    width: 100%;
+    height: 65%;
+}
+.lable1{
+    margin-top: 5%;
+    color: white;
+}
+.lable2{
+    margin-top: 0%;
+    color:gray;
+}
+.Nav{
+    width: 50%;
+    height: 20%;
+    float: right;
+ /* border: red solid;  */
+    display: flex;
+    justify-content: space-between;    
+    position: absolute;
+    top:10%;
+    left:45%;
+}
+.Nav a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    /* border: red solid; */
+    font-size: 100%;
+}
+.logo{
+    float: left;
+    width:20%;
+    height:auto;
+    /* border: red solid; */
+    position: absolute;
+    top:10%;
+    left:8%;
+}
+.footer{
+    width: 100vw;
+    height:70vh ;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+    align-items: center;
+} 
+.Container{
+        /* border: red solid; */
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .Moduleitem{
+        /* border: red solid; */
+        width: 60vw;
+        height:50vh ;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: end;
+        align-content:space-around
+        
+    }
+    .module{
+        /* border: red solid; */
+        width: 28%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .module a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .logo2{
+        float: left;
+        width: 30%;
+        height: 40%;
+        /* border: red solid; */
+        text-align: center;
+        color:white;        
+    }
+  .Container  h4{
+        padding-left: 10%;
+        padding-top: 0;
+        color:darkgrey;
+    }
